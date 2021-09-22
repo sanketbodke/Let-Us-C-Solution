@@ -9,7 +9,7 @@ int main()
     pr = 2 + (le * brth);
     printf("The area of rectangle = %d\n", ar);
     printf("The perimeter of rectangle = %d\n,", pr);
-    printf("\nEnter the redius of circle: ");
+    printf("\nEnter the radius of circle: ");
     scanf("%d", &re);
     are = 3.14 * (re * re);
     cir = 3.14 * (re * 2);
