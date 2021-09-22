@@ -15,7 +15,7 @@
     Valid
 
     e) ‘eLearning’
-    Invalid, A character constant contains only 1 character, And both the           inverted commas should point to the left ’A’.
+    Invalid, A character constant contains only 1 character, And both the inverted commas should point to the left ’A’.
 
     f) ”Show”
     Invalid, A character constant contains only 1 character.

@@ -8,10 +8,10 @@ A) Point out the error, if any, in the following C statements.
     b) Cir = 2 * 3.141593 * 2;
     Valid
     C) char = ‘3’;
-    Error: char is a reserved keyword and cannot be     used as a variable. We cannot assign anything to     a keyword.
+    Error: char is a reserved keyword and cannot be used as a variable. We cannot assign anything to keyword.
 
     d) 4/ 3 * 3.14 * r * r * r = vol_of_sphere
-    Error: lvalue required, We cannot take any     expression on the left of the assignment operator.
+    Error: lvalue required, We cannot take any expression on the left of the assignment operator.
 
     e) volume = a3; 
     Error: a3 does not specify any operation.
