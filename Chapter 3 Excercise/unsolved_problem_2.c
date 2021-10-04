@@ -3,7 +3,7 @@ int main()
 {
     int ram, shyam, Ajay;
     printf("Enter the age of Ram shyam and ajay: ");
-    scanf("%d%d%d", &ram, &shyam, &ajay);
+    scanf("%d%d%d", &ram, &shyam, &Ajay);
     if (ram < shyam)
     {
         if (ram < Ajay)
