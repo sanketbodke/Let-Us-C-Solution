@@ -1,51 +1,46 @@
 #include <stdio.h>
 int main()
 {
-    int A0wd, A0ht;
-    int A1wd, A1ht;
-    int A2wd, A2ht;
-    int A3wd, A3ht;
-    int A4wd, A4ht;
-    int A5wd, A5ht;
-    int A6wd, A6ht;
-    int A7wd, A7ht;
-    int A8wd, A8ht;
+    int a0ht, a0wd;
+    int a1ht, a1wd, a2ht, a2wd;
+    int a3ht, a3wd, a4ht, a4wd;
+    int a5ht, a5wd, a6ht, a6wd;
+    int a7ht, a7wd, a8ht, a8wd;
+    a0ht = 1189;
+    a0wd = 841;
+    printf("Size of A0 paper Height = %d Width = %d\n", a0ht, a0wd);
 
-    A0wd = 1189;
-    A0ht = 841;
-    printf("\nA0 paper width: %dmm, height: %dmm", A0wd,A0ht);
+    a1ht = a0wd;
+    a1wd = a0ht / 2;
+    printf("Size of A1 paper Height = %d Width = %d\n", a1ht, a1wd);
 
-    A1wd = A0wd / 2;
-    A1ht = A0ht; 
-    printf("\nA1 paper width: %dmm, height: %dmm", A1wd,A1ht);
+    a2ht = a1wd;
+    a2wd = a1ht / 2;
+    printf("Size of A2 paper Height = %d Width = %d\n", a2ht, a2wd);
 
-    A2wd = A1wd / 2;
-    A2ht = A1ht;
-    printf("\nA2 paper width: %dmm, height: %dmm", A2wd, A2ht);
+    a3ht = a2wd;
+    a3wd = a2ht / 2;
+    printf("Size of A3 paper Height = %d Width = %d\n", a3ht, a3wd);
 
-    A3wd = A2wd / 2;
-    A3ht = A2ht;
-    printf("\nA3 paper width: %dmm, height: %dmm", A3wd, A3ht);
+    a4ht = a3wd;
+    a4wd = a3ht / 2;
+    printf("Size of A4 paper Height = %d Width = %d\n", a4ht, a4wd);
 
-    A4wd = A3wd / 2;
-    A4ht = A3ht;
-    printf("\nA4 paper width: %dmm, height: %dmm", A4wd,A4ht);
+    a5ht = a4wd;
+    a5wd = a4ht / 2;
+    printf("Size of A5 paper Height = %d Width = %d\n", a5ht, a5wd);
 
-    A5wd = A4wd / 2;
-    A5ht = A4ht;
-    printf("\nA5 paper width: %dmm, height: %dmm", A5wd, A5ht);
+    a6ht = a5wd;
+    a6wd = a5ht / 2;
+    printf("Size of A6 paper Height = %d Width = %d\n", a6ht, a6wd);
 
-    A6wd = A5wd / 2;
-    A6ht = A5ht;
-    printf("\nA6 paper width: %dmm, height: %dmm", A6wd, A6ht);
+    a7ht = a6wd;
+    a7wd = a6ht / 2;
+    printf("Size of A7 paper Height = %d Width = %d\n", a7ht, a7wd);
 
-    A7wd = A6wd / 2;
-    A7ht = A6ht;
-    printf("\nA7 paper width: %dmm, height: %dmm", A7wd, A7ht);
-
-    A8wd = A7wd / 2;
-    A8ht = A7ht;
-    printf("\nA8 paper width: %dmm, height: %dmm", A8wd, A8ht);
-
+    a8ht = a7wd;
+    a8wd = a7ht / 2;
+    printf("Size of A8 paper Height = %d Width = %d\n", a8ht, a8wd);
+    
     return 0;
 }
