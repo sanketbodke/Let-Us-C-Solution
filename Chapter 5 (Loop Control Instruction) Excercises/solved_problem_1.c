@@ -7,7 +7,7 @@ int main()
     int hour, i = 1;
     while (i <= 10) /* loop for 10 employees */
     {
-        printf("Enter no. of hours worked: ");
+        printf("Enter no. of hours worked ");
         scanf("%d", &hour);
         if (hour >= 40)
         {
