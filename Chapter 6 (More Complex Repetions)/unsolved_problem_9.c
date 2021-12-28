@@ -1,12 +1,17 @@
 #include<stdio.h>
 int main()
 {
-    int numbers_loop,patter;
-    for(numbers_loop = 1;numbers_loop<=10;numbers_loop++)
+    int i,j,spaces,number=1;
+    for(i=1;i<=4;i++)
     {
-        for(patter = 1;patter <= numbers_loop; patter++)
+        for(spaces=1;spaces<=(4-i);spaces++)
         {
-            printf("%d",patter);
+            printf(" ");
+        }
+        for(j=1;j<=i;j++)
+        {
+            printf("%d ",number);
+            number++;
         }
         printf("\n");
     }
